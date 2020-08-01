@@ -1,0 +1,383 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookz</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js" charset="utf-8"></script>
+    
+    <script src="script.js" async></script>
+</head>
+<body>
+  
+<!--
+  
+  <nav class="navbar navbar-expand-lg navbar-dark  text-white" style="height: 100px;">
+    <a class="navbar-brand text-center" href="#checkout">View cart<br><hr><i class="fas fa-shopping-cart"></i></a>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link text-center" href="#books">Books<br><hr><i class="fas fa-book-open"></i><span class="sr-only">(current)</span></a>
+        </li>
+      </ul>
+    </div>
+    <br>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus recusandae fuga autem perferendis? Blanditiis libero corrupti aliquam iste obcaecati perferendis non rerum sint ut, vero laudantium enim sit ex neque!</p>
+
+  </nav>
+-->
+<div class="menu-toggle mr-auto ml-auto">
+
+</div>
+
+  <div class="jumbotron text-align-center" style="height: 400px; width: 100%;">
+    <h1 class="text-align-center">Welcome to the Bookstore!<br><br>
+      <a id="xx" class="btn btn-outline-primary x" href="#" ><i class="fa fa-bars" style="width: 40px; height: 40px;"></i>
+    </a><h1 style="font-size: large; text-decoration: underline;">Click to View Our Collection</h1>
+    <br></h1>
+    
+  </div>
+
+  
+  <section id="xxx">
+    <div class="container">
+        <div class="row text-center">
+          <div class="col-md-4 card-container">
+            <div class="card card-flip">
+              <div class="front card-block">
+                <img id="cover" src="images/b1.jpg" alt="#">
+                <h4 class="card-title">Generic book title 1</h4>
+                <h6 class="card-subtitle text-muted">£12.99</h6>
+                <p class="card-text">⭐️⭐️⭐️⭐️⭐️</p>
+              </div>
+              <div class="back card-block shop-item">
+                
+                <img id="cover" src="images/b1.jpg" class="shop-item-image" style="height: 150px; width: 100px; padding: 5px;"><br>
+                <span class="shop-item-title">Book1</span>
+                <div id="shop-item-details">
+                  <div type="button" class="SeeMore2 slider">Sample⬇️</div>
+                  <div class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste omnis unde quis expedita fuga enim vel, eius ratione totam dignissimos maiores debitis pariatur rerum sequi similique eos? Odio, cumque veritatis!
+                    <div class="btn btn-warning" style="height: 30px;">Large</div>
+                  </div>
+                  <span class="card-subtitle text-muted shop-item-price">£12.99</span>
+                <button class="btn btn-outline-success shop-item-button">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 card-container">
+            <div class="card card-flip">
+              <div class="front card-block">
+                <img id="cover" src="images/b14.jpg" alt="#">
+                <h4 class="card-title">Generic book title 2</h4>
+                <h6 class="card-subtitle text-muted">£10.99</h6>
+                <p class="card-text">⭐️⭐️⭐️⭐️⭐️</p>
+              </div>
+              <div class="back card-block shop-item">
+                
+                <img id="cover" src="images/b14.jpg" class="shop-item-image" style="height: 150px; width: 100px; padding: 5px;"><br>
+                <span class="shop-item-title">Book 2</span>
+                <div id="shop-item-details">
+                  <div type="button" class="SeeMore2 slider">Sample⬇️</div>
+                  <div class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste omnis unde quis expedita fuga enim vel, eius ratione totam dignissimos maiores debitis pariatur rerum sequi similique eos? Odio, cumque veritatis!
+                    <div class="btn btn-warning" style="height: 30px;">Large</div>
+                  </div>
+                  <span class="card-subtitle text-muted shop-item-price">£10.99</span>
+                <button class="btn btn-outline-success shop-item-button">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 card-container">
+            <div class="card card-flip">
+              <div class="front card-block">
+                <img id="cover" src="images/b11.jpg" alt="#">
+                <h4 class="card-title">Generic book title 3</h4>
+                <h6 class="card-subtitle text-muted">£15.99</h6>
+                <p class="card-text">⭐️⭐️⭐️⭐️⭐️</p>
+              </div>
+              <div class="back card-block shop-item">
+                
+                <img id="cover" src="images/b11.jpg" class="shop-item-image" style="height: 150px; width: 100px; padding: 5px;"><br>
+                <span class="shop-item-title">Book3</span>
+                <div id="shop-item-details">
+                  <div type="button" class="SeeMore2 slider">Sample⬇️</div>
+                  <div class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste omnis unde quis expedita fuga enim vel, eius ratione totam dignissimos maiores debitis pariatur rerum sequi similique eos? Odio, cumque veritatis!
+                    <div class="btn btn-warning" style="height: 30px;">Large</div>
+                  </div>
+                  <span class="card-subtitle text-muted shop-item-price">£15.99</span>
+                <button class="btn btn-outline-success shop-item-button">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 card-container">
+            <div class="card card-flip">
+              <div class="front card-block">
+                <img id="cover" src="images/b14.jpg" alt="#">
+                <h4 class="card-title">Generic book title 4</h4>
+                <h6 class="card-subtitle text-muted">£14.99</h6>
+                <p class="card-text">⭐️⭐️⭐️⭐️⭐️</p>
+              </div>
+              <div class="back card-block shop-item">
+                
+                <img id="cover" src="images/b14.jpg" class="shop-item-image" style="height: 150px; width: 100px; padding: 5px;"><br>
+                <span class="shop-item-title">Book4</span>
+                <div id="shop-item-details">
+                  <div type="button" class="SeeMore2 slider">Sample⬇️</div>
+                  <div class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste omnis unde quis expedita fuga enim vel, eius ratione totam dignissimos maiores debitis pariatur rerum sequi similique eos? Odio, cumque veritatis!
+                    <div class="btn btn-warning" style="height: 30px;">Large</div>
+                  </div>
+                  <span class="card-subtitle text-muted shop-item-price">£14.99</span>
+                <button class="btn btn-outline-success shop-item-button">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 card-container">
+            <div class="card card-flip">
+              <div class="front card-block">
+                <img id="cover" src="images/b7.jpg" alt="#">
+                <h4 class="card-title">Generic book title 5</h4>
+                <h6 class="card-subtitle text-muted">£17.99</h6>
+                <p class="card-text">⭐️⭐️⭐️⭐️⭐️</p>
+              </div>
+              <div class="back card-block shop-item">
+                
+                <img id="cover" src="images/b7.jpg" class="shop-item-image" style="height: 150px; width: 100px; padding: 5px;"><br>
+                <span class="shop-item-title">Book5</span>
+                <div id="shop-item-details">
+                  <div type="button" class="SeeMore2 slider">Sample⬇️</div>
+                  <div class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste omnis unde quis expedita fuga enim vel, eius ratione totam dignissimos maiores debitis pariatur rerum sequi similique eos? Odio, cumque veritatis!
+                    <div class="btn btn-warning" style="height: 30px;">Large</div>
+                  </div>
+                  <span class="card-subtitle text-muted shop-item-price">£17.99</span>
+                <button class="btn btn-outline-success shop-item-button">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-4 card-container">
+            <div class="card card-flip">
+              <div class="front card-block">
+                <img id="cover" src="images/b6.jpg" alt="#">
+                <h4 class="card-title">Generic book title 6</h4>
+                <h6 class="card-subtitle text-muted">£12.99</h6>
+                <p class="card-text">⭐️⭐️⭐️⭐️⭐️</p>
+              </div>
+              <div class="back card-block shop-item">
+                
+                <img id="cover" src="images/b6.jpg" class="shop-item-image" style="height: 150px; width: 100px; padding: 5px;"><br>
+                <span class="shop-item-title">Book6</span>
+                <div id="shop-item-details">
+                  <div type="button" class="SeeMore2 slider">Sample⬇️</div>
+                  <div class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste omnis unde quis expedita fuga enim vel, eius ratione totam dignissimos maiores debitis pariatur rerum sequi similique eos? Odio, cumque veritatis!
+                    <div class="btn btn-warning" style="height: 30px;">Large</div>
+                  </div>
+                  <span class="card-subtitle text-muted shop-item-price">£12.99</span>
+                <button class="btn btn-outline-success shop-item-button">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-4 card-container">
+            <div class="card card-flip">
+              <div class="front card-block">
+                <img id="cover" src="images/b13.jpg" alt="#">
+                <h4 class="card-title">Generic book title 7</h4>
+                <h6 class="card-subtitle text-muted">£12.99</h6>
+                <p class="card-text">⭐️⭐️⭐️⭐️⭐️</p>
+              </div>
+              <div class="back card-block shop-item">
+                
+                <img id="cover" src="images/b13.jpg" class="shop-item-image" style="height: 150px; width: 100px; padding: 5px;"><br>
+                <span class="shop-item-title">Book 7</span>
+                <div id="shop-item-details">
+                  <div type="button" class="SeeMore2 slider">Sample⬇️</div>
+                  <div class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste omnis unde quis expedita fuga enim vel, eius ratione totam dignissimos maiores debitis pariatur rerum sequi similique eos? Odio, cumque veritatis!
+                    <div class="btn btn-warning" style="height: 30px;">Large</div>
+                  </div>
+                  <span class="card-subtitle text-muted shop-item-price">£12.99</span>
+                <button class="btn btn-outline-success shop-item-button">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="col-md-4 card-container">
+            <div class="card card-flip">
+              <div class="front card-block">
+                <img id="cover" src="images/b15.jpg" alt="#">
+                <h4 class="card-title">Generic book title 8</h4>
+                <h6 class="card-subtitle text-muted">£19.99</h6>
+                <p class="card-text">⭐️⭐️⭐️⭐️⭐️</p>
+              </div>
+              <div class="back card-block shop-item">
+                
+                <img id="cover" src="images/b15.jpg" class="shop-item-image" style="height: 150px; width: 100px; padding: 5px;"><br>
+                <span class="shop-item-title">Book8</span>
+                <div id="shop-item-details">
+                  <div type="button" class="SeeMore2 slider">Sample⬇️</div>
+                  <div class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste omnis unde quis expedita fuga enim vel, eius ratione totam dignissimos maiores debitis pariatur rerum sequi similique eos? Odio, cumque veritatis!
+                    <div class="btn btn-warning" style="height: 30px;">Large</div>
+                  </div>
+                  <span class="card-subtitle text-muted shop-item-price">£19.99</span>
+                <button class="btn btn-outline-success shop-item-button">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="col-md-4 card-container">
+            <div class="card card-flip">
+              <div class="front card-block">
+                <img id="cover" src="images/b10.jpg" alt="#">
+                <h4 class="card-title">Generic book title 9</h4>
+                <h6 class="card-subtitle text-muted">£9.99</h6>
+                <p class="card-text">⭐️⭐️⭐️⭐️⭐️</p>
+              </div>
+              <div class="back card-block shop-item">
+                
+                <img id="cover" src="images/b10.jpg" class="shop-item-image" style="height: 150px; width: 100px; padding: 5px;"><br>
+                <span class="shop-item-title">Book 9</span>
+                <div id="shop-item-details">
+                  <div type="button" class="SeeMore2 slider">Sample⬇️</div>
+                  <div class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste omnis unde quis expedita fuga enim vel, eius ratione totam dignissimos maiores debitis pariatur rerum sequi similique eos? Odio, cumque veritatis!
+                    <div class="btn btn-warning" style="height: 30px;">Large</div>
+                  </div>
+                  <span class="card-subtitle text-muted shop-item-price">£9.99</span>
+                <button class="btn btn-outline-success shop-item-button">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="container">
+            <div class="row text-center">
+              <div class="col-md-4 card-container">
+                <div class="card card-flip">
+                  <div class="front card-block">
+                    <img id="cover" src="images/b9.jpg" alt="#">
+                    <h4 class="card-title">Generic book title 10</h4>
+                    <h6 class="card-subtitle text-muted">£11.99</h6>
+                    <p class="card-text">⭐️⭐️⭐️⭐️⭐️</p>
+                  </div>
+                  <div class="back card-block shop-item">
+                    
+                      
+                      <img id="cover" src="images/b9.jpg" class="shop-item-image" style="height: 150px; width: 100px; padding: 5px;"><br>
+                      <span class="shop-item-title">Book10</span>
+                      <div id="shop-item-details">
+                        <div type="button" class="SeeMore2 slider">Sample⬇️</div>
+                        <div class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste omnis unde quis expedita fuga enim vel, eius ratione totam dignissimos maiores debitis pariatur rerum sequi similique eos? Odio, cumque veritatis!
+                          <div class="btn btn-warning" style="height: 30px;">Large</div>
+                        </div>
+                        <span class="card-subtitle text-muted shop-item-price">£11.99</span>
+                      <button class="btn btn-outline-success shop-item-button">Add to Cart</button>
+                      </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="col-md-4 card-container">
+                <div class="card card-flip">
+                  <div class="front card-block">
+                    <img id="cover" src="images/b7.jpg" alt="#">
+                    <h4 class="card-title">Generic book title 11</h4>
+                    <h6 class="card-subtitle text-muted">£17.99</h6>
+                    <p class="card-text">⭐️⭐️⭐️⭐️⭐️</p>
+                  </div>
+                  <div class="back card-block shop-item">
+                    <img id="cover" src="images/b7.jpg" class="shop-item-image" style="height: 150px; width: 100px; padding: 5px;"><br>
+                    <span class="shop-item-title">Book11</span>
+                    <div id="shop-item-details">
+                      <div type="button" class="SeeMore2 slider">Sample⬇️</div>
+                      <div class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste omnis unde quis expedita fuga enim vel, eius ratione totam dignissimos maiores debitis pariatur rerum sequi similique eos? Odio, cumque veritatis!
+                        <div class="btn btn-warning" style="height: 30px;">Large</div>
+                      </div>
+                      <span class="card-subtitle text-muted shop-item-price">£17.99</span>
+                    <button class="btn btn-outline-success shop-item-button">Add to Cart</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="col-md-4 card-container">
+                <div class="card card-flip">
+                  <div class="front card-block">
+                    <img id="cover" src="images/b16.jpg" alt="#">
+                    <h4 class="card-title">Generic book title 12</h4>
+                    <h6 class="card-subtitle text-muted">£2.99</h6>
+                    <p class="card-text">⭐️⭐️⭐️⭐️⭐️</p>
+                  </div>
+                  <div class="back card-block shop-item">
+                    <img id="cover" src="images/b16.jpg" class="shop-item-image" style="height: 150px; width: 100px; padding: 5px;"><br>
+                    <span class="shop-item-title">Book12</span>
+                    <div id="shop-item-details">
+                      <div type="button" class="SeeMore2 slider">Sample⬇️</div>
+                      <div class="lorem"><p><div class="btn btn-warning" style="height: 30px;">Large</div>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste omnis unde quis expedita fuga enim vel, eius ratione totam dignissimos maiores debitis pariatur rerum sequi similique eos? Odio, cumque veritatis!</p>
+                        
+                      </div>
+                      <span class="card-subtitle text-muted shop-item-price">£2.99</span>
+                    <button class="btn btn-outline-success shop-item-button">Add to Cart</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+              <!----------------------------
+              --------------CART SECTION------------->
+              
+              <div class="jumbotron" >
+            <section id="checkout" class="container content-section">
+              <h1 class="section-header">Your Shopping Cart</h1>
+              <div class="cart-row">
+            </div>
+              <div class="white">
+              <div class="cart-items">
+                  
+              </div>
+
+
+              <div class="cart-total">
+                  <strong class="cart-total-title">Total</strong>
+                  <span class="cart-total-price">£0</span>
+              </div>
+              <button id="btn-purchase" class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+            </div>
+          </section>
+        </div>
+     
+
+
+</body>
+</html>
